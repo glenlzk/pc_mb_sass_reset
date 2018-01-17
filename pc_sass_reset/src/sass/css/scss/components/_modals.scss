@@ -1,0 +1,125 @@
+/*modal start*/
+.modal {
+  position: fixed !important;
+  background: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: none;
+}
+.modal-dialog {
+  position: relative;
+  width: 600px;
+  margin-top:98px;
+  margin: 98px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.modal-dialog.modal-lg,
+.modal-dialog.modal-md,
+.modal-dialog.modal-sm{
+  margin: auto;
+  position: absolute!important;
+  top: -3%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+#myModal .modal-dialog{
+  opacity: 0;
+}
+.modal-header {
+  border-radius: 5px 5px 0 0;
+  background-color: #60CDF5;
+  color: #fff;
+  padding: 14px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.modal-body {
+  position: relative;
+  padding: 15px;
+}
+.modal-footer {
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+}
+.close{
+  cursor: pointer;
+  text-shadow: 0 1px 0 #fff;
+}
+.close:hover{
+  color: #808080;
+  text-shadow: 0 1px 0 #808080;
+}
+.modal-lg {
+  width: 900px;
+}
+.modal-md {
+  width: 600px;
+}
+.modal-sm {
+  width: 300px;
+}
+.modal.fadeIn .modal-dialog{
+  margin: 162px auto;
+}
+.modal .title-left{
+  border-left: 2px solid #21BCF5;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.modal .bg-f2f7fa:hover,
+.modal .bgc-f2f7fa{
+  background-color: #f2f7fa;
+  border: 1px solid transparent;
+}
+.modal .bgc-f2f7fa:hover{
+  border-color: #ccc;
+}
+.modal .numberTips{
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #bcebfc;
+  color: #5bcef8;
+  text-align: center;
+  line-height: 18px;
+  right: -8px;
+  top: -8px;
+}
+.modal .numberTips.grayTips{
+  color: #AAA;
+  background: #E0E0E0;
+}
+.modal .channelListLabel{
+  position: absolute;
+  width: 540px;
+  max-height: 576px;
+  overflow-y: auto;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, .3);
+}
+.modal .channelBox{
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  float: left;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.modal .channelBox:hover{
+  border: 1px solid #21bcf5;
+}
+/*modal end*/

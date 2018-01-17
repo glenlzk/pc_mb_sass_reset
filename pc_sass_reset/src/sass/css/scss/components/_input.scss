@@ -1,0 +1,22 @@
+
+input {
+  color: #333;
+}
+
+input::-webkit-input-placeholder,
+input:-moz-placeholder,
+input:-ms-input-placeholder {
+  color: #999;
+}
+
+input:focus {
+  border-color: #21bcf5;
+  outline: 0;
+}
+
+input[disabled] {
+  background-color: #f3f3f3;
+  opacity: 1;
+  cursor: not-allowed;
+  color: #ccc;
+}
